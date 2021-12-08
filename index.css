@@ -1,23 +1,23 @@
 body{
     text-align: center;
-    background-image: url("https://as1.ftcdn.net/v2/jpg/02/84/26/64/500_F_284266478_jHSRaRp1SGbRGgfEkfcpHnbmidbgKrfu.jpg");
+    background-color: rgb(226, 220, 220);
 }
 input{
 
-    border: 5px solid #c0c0b7;
+    border: 2px solid #c0c0b7;
     margin: 1rem;
     padding: 1rem;
     background-color: rgb(231, 212, 208);
 }
 .container{
-    display: flex;
+    display:inline-table;
     flex-direction:column ;
-    width: 95vw;
+    width: 75vw;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
 button{
-    border: 5px solid  rgb(106, 255, 47);
+    border: 2px solid  rgb(106, 255, 47);
     color: darkred;
     padding: 1rem;
     margin: 3 rem;
